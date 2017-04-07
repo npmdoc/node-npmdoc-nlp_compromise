@@ -1,0 +1,968 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/nlp-compromise/nlp_compromise#readme">nlp_compromise (v6.5.3)</a>
+</h1>
+<h4>natural language processing in the browser</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.nlp_compromise">module nlp_compromise</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.adjective">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>adjective
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.adverb">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>adverb
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.date">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>date
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.lexicon">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>lexicon
+            <span class="apidocSignatureSpan">(obj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.noun">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>noun
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.organization">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>organization
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.person">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>person
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.place">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>place
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.plugin">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>plugin
+            <span class="apidocSignatureSpan">(obj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.question">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>question
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.sentence">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>sentence
+            <span class="apidocSignatureSpan">(s, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.statement">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>statement
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.term">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>term
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.text">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>text
+            <span class="apidocSignatureSpan">(s, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.value">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>value
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.verb">
+            function <span class="apidocSignatureSpan">nlp_compromise.</span>verb
+            <span class="apidocSignatureSpan">(s)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">nlp_compromise.</span>fns</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.nlp_compromise.fns">module nlp_compromise.fns</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.fns.endsWith">
+            function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>endsWith
+            <span class="apidocSignatureSpan">(str, suffix)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.fns.expand_prefixes">
+            function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>expand_prefixes
+            <span class="apidocSignatureSpan">(list, obj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.fns.expand_suffixes">
+            function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>expand_suffixes
+            <span class="apidocSignatureSpan">(list, obj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.fns.extend">
+            function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>extend
+            <span class="apidocSignatureSpan">(a, b)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.fns.flatten">
+            function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>flatten
+            <span class="apidocSignatureSpan">(arr)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.fns.isFunction">
+            function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>isFunction
+            <span class="apidocSignatureSpan">(obj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.fns.pluck">
+            function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>pluck
+            <span class="apidocSignatureSpan">(arr, str)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.fns.reverseObj">
+            function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>reverseObj
+            <span class="apidocSignatureSpan">(obj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.fns.startsWith">
+            function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>startsWith
+            <span class="apidocSignatureSpan">(str, prefix)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.fns.titlecase">
+            function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>titlecase
+            <span class="apidocSignatureSpan">(str)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.nlp_compromise.fns.toObj">
+            function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>toObj
+            <span class="apidocSignatureSpan">(arr)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.nlp_compromise" id="apidoc.module.nlp_compromise">module nlp_compromise</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.adjective" id="apidoc.element.nlp_compromise.adjective">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>adjective
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">adjective = function (s) {
+  return new models.Adjective(s);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.adverb" id="apidoc.element.nlp_compromise.adverb">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>adverb
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">adverb = function (s) {
+  return new models.Adverb(s);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.date" id="apidoc.element.nlp_compromise.date">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>date
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">date = function (s) {
+  return new models.Date(s);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.lexicon" id="apidoc.element.nlp_compromise.lexicon">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>lexicon
+        <span class="apidocSignatureSpan">(obj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">lexicon = function (obj) {
+  obj = obj || {};
+  var lex = _dereq_('./lexicon.js');
+
+  Object.keys(obj).forEach(function (k) {
+    lex[k] = obj[k];
+  });
+
+  return lex;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.noun" id="apidoc.element.nlp_compromise.noun">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>noun
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">noun = function (s) {
+  return new models.Noun(s);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&gt; `npm install nlp_compromise`
+
+&gt; `&lt;script src="https://unpkg.com/nlp_compromise@latest/builds/nlp_compromise.min.js"&gt;&lt;/script&gt;
+;`
+
+```javascript
+let nlp = require('nlp_compromise'); // or nlp = window.nlp_compromise
+
+nlp.<span class="apidocCodeKeywordSpan">noun</span>('dinosaur').pluralize();
+// 'dinosaurs'
+
+nlp.verb('speak').conjugate();
+// { past: 'spoke',
+//   infinitive: 'speak',
+//   gerund: 'speaking',
+//   actor: 'speaker',
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.organization" id="apidoc.element.nlp_compromise.organization">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>organization
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">organization = function (s) {
+  return new models.Organization(s);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.person" id="apidoc.element.nlp_compromise.person">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>person
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">person = function (s) {
+  return new models.Person(s);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+nlp.text('Tony Hawk did a kickflip').people();
+// [ Person { text: 'Tony Hawk' ..} ]
+
+nlp.noun('vacuum').article();
+// 'a'
+
+nlp.<span class="apidocCodeKeywordSpan">person</span>('Tony Hawk').pronoun();
+// 'he'
+
+nlp.value('five hundred and sixty').number;
+// 560
+
+nlp.text(require('nlp-corpus').text.friends()).topics()//11 seasons of friends
+// [ { count: 2523, text: 'ross' },
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.place" id="apidoc.element.nlp_compromise.place">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>place
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">place = function (s) {
+  return new models.Place(s);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.plugin" id="apidoc.element.nlp_compromise.plugin">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>plugin
+        <span class="apidocSignatureSpan">(obj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">plugin = function (obj) {
+  obj = obj || {};
+  // if obj is a function, pass it an instance of this nlp library
+  if (fns.isFunction(obj)) {
+    // run it in this current context
+    obj = obj.call(this, this);
+  }
+  //apply each plugin to the correct prototypes
+  Object.keys(obj).forEach(function (k) {
+    Object.keys(obj[k]).forEach(function (method) {
+      models[k].prototype[method] = obj[k][method];
+    });
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+//   { count: 1411, text: 'rachel' },
+//   ....
+```
+#Plugin/Mixins
+we've also got a modest, though ambitious [plugin ecosystem](https://github.com/nlp-compromise/nlp_compromise/wiki/Plugins):
+```javascript
+//US-UK localization
+nlp.<span class="apidocCodeKeywordSpan">plugin</span>(require('nlp-locale'))
+nlp.term('favourite').toAmerican()
+// 'favorite'
+
+//syllable hyphenization
+nlp.plugin(require('nlp-syllables'));
+var t2 = nlp.term('houston texas');
+t2.syllables()
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.question" id="apidoc.element.nlp_compromise.question">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>question
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">question = function (s) {
+  return new models.Question(s);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.sentence" id="apidoc.element.nlp_compromise.sentence">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>sentence
+        <span class="apidocSignatureSpan">(s, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">sentence = function (s, options) {
+  return new models.Sentence(s, options);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+[![CodacyBadge](https://api.codacy.com/project/badge/grade/82cc8ebd98b64ed199d7be6021488062)](https://www.codacy.com/app/spencerkelly86
+/nlp_compromise)
+[![npm version](https://badge.fury.io/js/nlp_compromise.svg)](https://www.npmjs.com/package/nlp_compromise)
+[![downloads](https://img.shields.io/npm/dm/nlp_compromise.svg)](https://www.npmjs.com/package/nlp_compromise)
+
+**nlp_compromise** does NLP in the browser.
+```javascript
+nlp.<span class="apidocCodeKeywordSpan">sentence</span>('She sells seashells').to_past().text()
+// 'She sold seashells'
+```
+### Yup,
+* **&lt;150k** js file
+* **86%** on the [Penn treebank](http://www.cis.upenn.edu/~treebank/)
+* keypress speed, constant-time.
+* caniuse, uhuh. **IE9+**
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.statement" id="apidoc.element.nlp_compromise.statement">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>statement
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">statement = function (s) {
+  return new models.Statement(s);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+//   present: 'speaks',
+//   future: 'will speak',
+//   perfect: 'have spoken',
+//   pluperfect: 'had spoken',
+//   future_perfect: 'will have spoken'
+// }
+
+nlp.<span class="apidocCodeKeywordSpan">statement</span>('She sells seashells').negate().text()
+// 'She doesn't sell seashells'
+
+nlp.sentence('I fed the dog').replace('the [Noun]', 'the cat').text()
+// 'I fed the cat'
+
+nlp.text('Tony Hawk did a kickflip').people();
+// [ Person { text: 'Tony Hawk' ..} ]
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.term" id="apidoc.element.nlp_compromise.term">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>term
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">term = function (s) {
+  return new models.Term(s);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+//   ....
+```
+#Plugin/Mixins
+we've also got a modest, though ambitious [plugin ecosystem](https://github.com/nlp-compromise/nlp_compromise/wiki/Plugins):
+```javascript
+//US-UK localization
+nlp.plugin(require('nlp-locale'))
+nlp.<span class="apidocCodeKeywordSpan">term</span>('favourite').toAmerican()
+// 'favorite'
+
+//syllable hyphenization
+nlp.plugin(require('nlp-syllables'));
+var t2 = nlp.term('houston texas');
+t2.syllables()
+//[ [ 'hous', 'ton' ], [ 'tex', 'as' ] ]
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.text" id="apidoc.element.nlp_compromise.text">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>text
+        <span class="apidocSignatureSpan">(s, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">text = function (s, options) {
+  return new models.Text(s, options);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+[![CodacyBadge](https://api.codacy.com/project/badge/grade/82cc8ebd98b64ed199d7be6021488062)](https://www.codacy.com/app/spencerkelly86
+/nlp_compromise)
+[![npm version](https://badge.fury.io/js/nlp_compromise.svg)](https://www.npmjs.com/package/nlp_compromise)
+[![downloads](https://img.shields.io/npm/dm/nlp_compromise.svg)](https://www.npmjs.com/package/nlp_compromise)
+
+**nlp_compromise** does NLP in the browser.
+```javascript
+nlp.sentence('She sells seashells').to_past().<span class="apidocCodeKeywordSpan">text</span>()
+// 'She sold seashells'
+```
+### Yup,
+* **&lt;150k** js file
+* **86%** on the [Penn treebank](http://www.cis.upenn.edu/~treebank/)
+* keypress speed, constant-time.
+* caniuse, uhuh. **IE9+**
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.value" id="apidoc.element.nlp_compromise.value">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>value
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">value = function (s) {
+  return new models.Value(s);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+nlp.noun('vacuum').article();
+// 'a'
+
+nlp.person('Tony Hawk').pronoun();
+// 'he'
+
+nlp.<span class="apidocCodeKeywordSpan">value</span>('five hundred and sixty').number;
+// 560
+
+nlp.text(require('nlp-corpus').text.friends()).topics()//11 seasons of friends
+// [ { count: 2523, text: 'ross' },
+//   { count: 1922, text: 'joey' },
+//   { count: 1876, text: 'god' },
+//   { count: 1411, text: 'rachel' },
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.verb" id="apidoc.element.nlp_compromise.verb">
+        function <span class="apidocSignatureSpan">nlp_compromise.</span>verb
+        <span class="apidocSignatureSpan">(s)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">verb = function (s) {
+  return new models.Verb(s);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+```javascript
+let nlp = require('nlp_compromise'); // or nlp = window.nlp_compromise
+
+nlp.noun('dinosaur').pluralize();
+// 'dinosaurs'
+
+nlp.<span class="apidocCodeKeywordSpan">verb</span>('speak').conjugate();
+// { past: 'spoke',
+//   infinitive: 'speak',
+//   gerund: 'speaking',
+//   actor: 'speaker',
+//   present: 'speaks',
+//   future: 'will speak',
+//   perfect: 'have spoken',
+...</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.nlp_compromise.fns" id="apidoc.module.nlp_compromise.fns">module nlp_compromise.fns</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.fns.endsWith" id="apidoc.element.nlp_compromise.fns.endsWith">
+        function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>endsWith
+        <span class="apidocSignatureSpan">(str, suffix)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">endsWith = function (str, suffix) {
+  //if suffix is regex
+  if (suffix &amp;&amp; suffix instanceof RegExp) {
+    if (str.match(suffix)) {
+      return true;
+    }
+  }
+  //if suffix is a string
+  if (str &amp;&amp; suffix &amp;&amp; str.indexOf(suffix, str.length - suffix.length) !== -1) {
+    return true;
+  }
+  return false;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.fns.expand_prefixes" id="apidoc.element.nlp_compromise.fns.expand_prefixes">
+        function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>expand_prefixes
+        <span class="apidocSignatureSpan">(list, obj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">expand_prefixes = function (list, obj) {
+  let keys = Object.keys(obj);
+  let l = keys.length;
+  for (let i = 0; i &lt; l; i++) {
+    const arr = obj[keys[i]].split(',');
+    for (let i2 = 0; i2 &lt; arr.length; i2++) {
+      list.push(keys[i] + arr[i2]);
+    }
+  }
+  return list;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.fns.expand_suffixes" id="apidoc.element.nlp_compromise.fns.expand_suffixes">
+        function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>expand_suffixes
+        <span class="apidocSignatureSpan">(list, obj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">expand_suffixes = function (list, obj) {
+  let keys = Object.keys(obj);
+  let l = keys.length;
+  for (let i = 0; i &lt; l; i++) {
+    const arr = obj[keys[i]].split(',');
+    for (let i2 = 0; i2 &lt; arr.length; i2++) {
+      list.push(arr[i2] + keys[i]);
+    }
+  }
+  return list;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.fns.extend" id="apidoc.element.nlp_compromise.fns.extend">
+        function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>extend
+        <span class="apidocSignatureSpan">(a, b)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">extend = function (a, b) {
+  const keys = Object.keys(b);
+  for(let i = 0; i &lt; keys.length; i++) {
+    a[keys[i]] = b[keys[i]];
+  }
+  return a;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.fns.flatten" id="apidoc.element.nlp_compromise.fns.flatten">
+        function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>flatten
+        <span class="apidocSignatureSpan">(arr)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">flatten = function (arr) {
+  let all = [];
+  arr.forEach(function(a) {
+    all = all.concat(a);
+  });
+  return all;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.fns.isFunction" id="apidoc.element.nlp_compromise.fns.isFunction">
+        function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>isFunction
+        <span class="apidocSignatureSpan">(obj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">isFunction = function (obj) {
+  return Object.prototype.toString.call(obj) === '[object Function]';
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.fns.pluck" id="apidoc.element.nlp_compromise.fns.pluck">
+        function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>pluck
+        <span class="apidocSignatureSpan">(arr, str)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">pluck = function (arr, str) {
+  arr = arr || [];
+  return arr.map(function(o) {
+    return o[str];
+  });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+//add all names
+addArr(Object.keys(firstNames.all), 'Person');
+//overwrite to MalePerson, FemalePerson
+addArr(firstNames.male, 'MalePerson');
+addArr(firstNames.female, 'FemalePerson');
+//add irregular nouns
+const irregNouns = require('./data/irregular_nouns.js');
+addArr(fns.<span class="apidocCodeKeywordSpan">pluck</span>(irregNouns, 0), 'Noun');
+addArr(fns.pluck(irregNouns, 1), 'Plural');
+
+addObj(require('./data/misc.js'));
+addObj(require('./data/multiples.js'));
+addObj(require('./data/phrasal_verbs.js'));
+//add named holidays, like 'easter'
+Object.keys(require('./data/holidays.js')).forEach(function(k) {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.fns.reverseObj" id="apidoc.element.nlp_compromise.fns.reverseObj">
+        function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>reverseObj
+        <span class="apidocSignatureSpan">(obj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">reverseObj = function (obj) {
+  return Object.keys(obj).reduce(function(h, k) {
+    h[obj[k]] = k;
+    return h;
+  }, {});
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.fns.startsWith" id="apidoc.element.nlp_compromise.fns.startsWith">
+        function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>startsWith
+        <span class="apidocSignatureSpan">(str, prefix)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">startsWith = function (str, prefix) {
+  if (str &amp;&amp; str.length &amp;&amp; str.substr(0, 1) === prefix) {
+    return true;
+  }
+  return false;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.fns.titlecase" id="apidoc.element.nlp_compromise.fns.titlecase">
+        function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>titlecase
+        <span class="apidocSignatureSpan">(str)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">titlecase = function (str) {
+  if (!str) {
+    return '';
+  }
+  str = str.toLowerCase();
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.nlp_compromise.fns.toObj" id="apidoc.element.nlp_compromise.fns.toObj">
+        function <span class="apidocSignatureSpan">nlp_compromise.fns.</span>toObj
+        <span class="apidocSignatureSpan">(arr)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toObj = function (arr) {
+  return arr.reduce(function(h, a) {
+    h[a] = true;
+    return h;
+  }, {});
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
