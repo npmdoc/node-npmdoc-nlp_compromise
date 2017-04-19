@@ -1,129 +1,129 @@
 <svg height="2014" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="2014" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-07 07:05:37 +0000   689534 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-07 07:05:37 +0000     1080 bytes  LICENSE.txt</tspan>
-<tspan x="10" y="58">  2.  2017-04-07 07:05:37 +0000     4906 bytes  README.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-07 07:05:37 +0000   278195 bytes  builds/nlp_compromise.js</tspan>
-<tspan x="10" y="90">  4.  2017-04-07 07:05:37 +0000   151760 bytes  builds/nlp_compromise.min.js</tspan>
-<tspan x="10" y="106">  5.  2017-04-07 07:05:37 +0000     2717 bytes  changelog.md</tspan>
-<tspan x="10" y="122">  6.  2017-04-07 07:05:37 +0000     7877 bytes  nlp.d.ts</tspan>
-<tspan x="10" y="138">  7.  2017-04-07 07:05:37 +0000     3104 bytes  package.json</tspan>
-<tspan x="10" y="154">  8.  2017-04-07 07:05:37 +0000     1419 bytes  src/data/abbreviations.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-07 07:05:37 +0000     5476 bytes  src/data/adjectives.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-07 07:05:37 +0000     2390 bytes  src/data/convertables.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-07 07:05:37 +0000     1237 bytes  src/data/currencies.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-07 07:05:37 +0000     1148 bytes  src/data/dates.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-07 07:05:37 +0000     1896 bytes  src/data/demonyms.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-07 07:05:37 +0000     1455 bytes  src/data/firstnames.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-07 07:05:37 +0000     3223 bytes  src/data/holidays.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-07 07:05:37 +0000      648 bytes  src/data/honourifics.js</tspan>
-<tspan x="10" y="298"> 17.  2017-04-07 07:05:37 +0000     1559 bytes  src/data/irregular_nouns.js</tspan>
-<tspan x="10" y="314"> 18.  2017-04-07 07:05:37 +0000     5771 bytes  src/data/irregular_verbs.js</tspan>
-<tspan x="10" y="330"> 19.  2017-04-07 07:05:37 +0000     6351 bytes  src/data/misc.js</tspan>
-<tspan x="10" y="346"> 20.  2017-04-07 07:05:37 +0000     1992 bytes  src/data/multiples.js</tspan>
-<tspan x="10" y="362"> 21.  2017-04-07 07:05:37 +0000     4656 bytes  src/data/names/female.js</tspan>
-<tspan x="10" y="378"> 22.  2017-04-07 07:05:37 +0000     4412 bytes  src/data/names/male.js</tspan>
-<tspan x="10" y="394"> 23.  2017-04-07 07:05:37 +0000     2272 bytes  src/data/numbers.js</tspan>
-<tspan x="10" y="410"> 24.  2017-04-07 07:05:37 +0000     1029 bytes  src/data/organizations.js</tspan>
-<tspan x="10" y="426"> 25.  2017-04-07 07:05:37 +0000     5364 bytes  src/data/phrasal_verbs.js</tspan>
-<tspan x="10" y="442"> 26.  2017-04-07 07:05:37 +0000     5540 bytes  src/data/places.js</tspan>
-<tspan x="10" y="458"> 27.  2017-04-07 07:05:37 +0000      863 bytes  src/data/professions.js</tspan>
-<tspan x="10" y="474"> 28.  2017-04-07 07:05:37 +0000     2005 bytes  src/data/uncountables.js</tspan>
-<tspan x="10" y="490"> 29.  2017-04-07 07:05:37 +0000     4502 bytes  src/data/verbs.js</tspan>
-<tspan x="10" y="506"> 30.  2017-04-07 07:05:37 +0000     2296 bytes  src/fns.js</tspan>
-<tspan x="10" y="522"> 31.  2017-04-07 07:05:37 +0000     2824 bytes  src/index.js</tspan>
-<tspan x="10" y="538"> 32.  2017-04-07 07:05:37 +0000     4112 bytes  src/lexicon.js</tspan>
-<tspan x="10" y="554"> 33.  2017-04-07 07:05:37 +0000     2662 bytes  src/match/match.js</tspan>
-<tspan x="10" y="570"> 34.  2017-04-07 07:05:37 +0000      994 bytes  src/match/match_term.js</tspan>
-<tspan x="10" y="586"> 35.  2017-04-07 07:05:37 +0000     1369 bytes  src/match/result.js</tspan>
-<tspan x="10" y="602"> 36.  2017-04-07 07:05:37 +0000     1926 bytes  src/match/syntax_parse.js</tspan>
-<tspan x="10" y="618"> 37.  2017-04-07 07:05:37 +0000     1033 bytes  src/sentence/change_tense.js</tspan>
-<tspan x="10" y="634"> 38.  2017-04-07 07:05:37 +0000      769 bytes  src/sentence/contractions/contract.js</tspan>
-<tspan x="10" y="650"> 39.  2017-04-07 07:05:37 +0000      243 bytes  src/sentence/contractions/expand.js</tspan>
-<tspan x="10" y="666"> 40.  2017-04-07 07:05:37 +0000      293 bytes  src/sentence/instruction/instruction.js</tspan>
-<tspan x="10" y="682"> 41.  2017-04-07 07:05:37 +0000      491 bytes  src/sentence/passive_voice.js</tspan>
-<tspan x="10" y="698"> 42.  2017-04-07 07:05:37 +0000      531 bytes  src/sentence/pos/assign.js</tspan>
-<tspan x="10" y="714"> 43.  2017-04-07 07:05:37 +0000     1933 bytes  src/sentence/pos/lumper/combine.js</tspan>
-<tspan x="10" y="730"> 44.  2017-04-07 07:05:37 +0000     2435 bytes  src/sentence/pos/lumper/lump_three.js</tspan>
-<tspan x="10" y="746"> 45.  2017-04-07 07:05:37 +0000     6976 bytes  src/sentence/pos/lumper/lump_two.js</tspan>
-<tspan x="10" y="762"> 46.  2017-04-07 07:05:37 +0000     2523 bytes  src/sentence/pos/parts_of_speech.js</tspan>
-<tspan x="10" y="778"> 47.  2017-04-07 07:05:37 +0000     1567 bytes  src/sentence/pos/passes/ambiguous_dates.js</tspan>
-<tspan x="10" y="794"> 48.  2017-04-07 07:05:37 +0000      522 bytes  src/sentence/pos/passes/capital_signals.js</tspan>
-<tspan x="10" y="810"> 49.  2017-04-07 07:05:37 +0000     1813 bytes  src/sentence/pos/passes/conditional_pass.js</tspan>
-<tspan x="10" y="826"> 50.  2017-04-07 07:05:37 +0000     3532 bytes  src/sentence/pos/passes/contractions/interpret.j\</tspan>
+<tspan x="10" y="26">  0.  2017-04-19 01:09:56 +0000   689534 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-19 01:09:56 +0000     1080 bytes  LICENSE.txt</tspan>
+<tspan x="10" y="58">  2.  2017-04-19 01:09:56 +0000     4906 bytes  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-19 01:09:56 +0000   278195 bytes  builds/nlp_compromise.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-19 01:09:56 +0000   151760 bytes  builds/nlp_compromise.min.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-19 01:09:56 +0000     2717 bytes  changelog.md</tspan>
+<tspan x="10" y="122">  6.  2017-04-19 01:09:56 +0000     7877 bytes  nlp.d.ts</tspan>
+<tspan x="10" y="138">  7.  2017-04-19 01:09:56 +0000     3104 bytes  package.json</tspan>
+<tspan x="10" y="154">  8.  2017-04-19 01:09:56 +0000     1419 bytes  src/data/abbreviations.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-19 01:09:56 +0000     5476 bytes  src/data/adjectives.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-19 01:09:56 +0000     2390 bytes  src/data/convertables.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-19 01:09:56 +0000     1237 bytes  src/data/currencies.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-19 01:09:56 +0000     1148 bytes  src/data/dates.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-19 01:09:56 +0000     1896 bytes  src/data/demonyms.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-19 01:09:56 +0000     1455 bytes  src/data/firstnames.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-19 01:09:56 +0000     3223 bytes  src/data/holidays.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-19 01:09:56 +0000      648 bytes  src/data/honourifics.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-19 01:09:56 +0000     1559 bytes  src/data/irregular_nouns.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-19 01:09:56 +0000     5771 bytes  src/data/irregular_verbs.js</tspan>
+<tspan x="10" y="330"> 19.  2017-04-19 01:09:56 +0000     6351 bytes  src/data/misc.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-19 01:09:56 +0000     1992 bytes  src/data/multiples.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-19 01:09:56 +0000     4656 bytes  src/data/names/female.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-19 01:09:56 +0000     4412 bytes  src/data/names/male.js</tspan>
+<tspan x="10" y="394"> 23.  2017-04-19 01:09:56 +0000     2272 bytes  src/data/numbers.js</tspan>
+<tspan x="10" y="410"> 24.  2017-04-19 01:09:56 +0000     1029 bytes  src/data/organizations.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-19 01:09:56 +0000     5364 bytes  src/data/phrasal_verbs.js</tspan>
+<tspan x="10" y="442"> 26.  2017-04-19 01:09:56 +0000     5540 bytes  src/data/places.js</tspan>
+<tspan x="10" y="458"> 27.  2017-04-19 01:09:56 +0000      863 bytes  src/data/professions.js</tspan>
+<tspan x="10" y="474"> 28.  2017-04-19 01:09:56 +0000     2005 bytes  src/data/uncountables.js</tspan>
+<tspan x="10" y="490"> 29.  2017-04-19 01:09:56 +0000     4502 bytes  src/data/verbs.js</tspan>
+<tspan x="10" y="506"> 30.  2017-04-19 01:09:56 +0000     2296 bytes  src/fns.js</tspan>
+<tspan x="10" y="522"> 31.  2017-04-19 01:09:56 +0000     2824 bytes  src/index.js</tspan>
+<tspan x="10" y="538"> 32.  2017-04-19 01:09:56 +0000     4112 bytes  src/lexicon.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-19 01:09:56 +0000     2662 bytes  src/match/match.js</tspan>
+<tspan x="10" y="570"> 34.  2017-04-19 01:09:56 +0000      994 bytes  src/match/match_term.js</tspan>
+<tspan x="10" y="586"> 35.  2017-04-19 01:09:56 +0000     1369 bytes  src/match/result.js</tspan>
+<tspan x="10" y="602"> 36.  2017-04-19 01:09:56 +0000     1926 bytes  src/match/syntax_parse.js</tspan>
+<tspan x="10" y="618"> 37.  2017-04-19 01:09:56 +0000     1033 bytes  src/sentence/change_tense.js</tspan>
+<tspan x="10" y="634"> 38.  2017-04-19 01:09:56 +0000      769 bytes  src/sentence/contractions/contract.js</tspan>
+<tspan x="10" y="650"> 39.  2017-04-19 01:09:56 +0000      243 bytes  src/sentence/contractions/expand.js</tspan>
+<tspan x="10" y="666"> 40.  2017-04-19 01:09:56 +0000      293 bytes  src/sentence/instruction/instruction.js</tspan>
+<tspan x="10" y="682"> 41.  2017-04-19 01:09:56 +0000      491 bytes  src/sentence/passive_voice.js</tspan>
+<tspan x="10" y="698"> 42.  2017-04-19 01:09:56 +0000      531 bytes  src/sentence/pos/assign.js</tspan>
+<tspan x="10" y="714"> 43.  2017-04-19 01:09:56 +0000     1933 bytes  src/sentence/pos/lumper/combine.js</tspan>
+<tspan x="10" y="730"> 44.  2017-04-19 01:09:56 +0000     2435 bytes  src/sentence/pos/lumper/lump_three.js</tspan>
+<tspan x="10" y="746"> 45.  2017-04-19 01:09:56 +0000     6976 bytes  src/sentence/pos/lumper/lump_two.js</tspan>
+<tspan x="10" y="762"> 46.  2017-04-19 01:09:56 +0000     2523 bytes  src/sentence/pos/parts_of_speech.js</tspan>
+<tspan x="10" y="778"> 47.  2017-04-19 01:09:56 +0000     1567 bytes  src/sentence/pos/passes/ambiguous_dates.js</tspan>
+<tspan x="10" y="794"> 48.  2017-04-19 01:09:56 +0000      522 bytes  src/sentence/pos/passes/capital_signals.js</tspan>
+<tspan x="10" y="810"> 49.  2017-04-19 01:09:56 +0000     1813 bytes  src/sentence/pos/passes/conditional_pass.js</tspan>
+<tspan x="10" y="826"> 50.  2017-04-19 01:09:56 +0000     3532 bytes  src/sentence/pos/passes/contractions/interpret.j\</tspan>
 <tspan x="10" y="842">s</tspan>
-<tspan x="10" y="858"> 51.  2017-04-07 07:05:37 +0000     1454 bytes  src/sentence/pos/passes/grammar_pass.js</tspan>
-<tspan x="10" y="874"> 52.  2017-04-07 07:05:37 +0000      569 bytes  src/sentence/pos/passes/interjection_fixes.js</tspan>
-<tspan x="10" y="890"> 53.  2017-04-07 07:05:37 +0000     1729 bytes  src/sentence/pos/passes/lexicon_pass.js</tspan>
-<tspan x="10" y="906"> 54.  2017-04-07 07:05:37 +0000     1095 bytes  src/sentence/pos/passes/multiples_pass.js</tspan>
-<tspan x="10" y="922"> 55.  2017-04-07 07:05:37 +0000     1737 bytes  src/sentence/pos/passes/possessive_pass.js</tspan>
-<tspan x="10" y="938"> 56.  2017-04-07 07:05:37 +0000     1065 bytes  src/sentence/pos/passes/question_pass.js</tspan>
-<tspan x="10" y="954"> 57.  2017-04-07 07:05:37 +0000     1111 bytes  src/sentence/pos/passes/quotation_pass.js</tspan>
-<tspan x="10" y="970"> 58.  2017-04-07 07:05:37 +0000     1657 bytes  src/sentence/pos/passes/regex_pass.js</tspan>
-<tspan x="10" y="986"> 59.  2017-04-07 07:05:37 +0000     3083 bytes  src/sentence/pos/passes/rules/grammar_rules.js</tspan>
-<tspan x="10" y="1002"> 60.  2017-04-07 07:05:37 +0000     3468 bytes  src/sentence/pos/passes/rules/word_rules.js</tspan>
-<tspan x="10" y="1018"> 61.  2017-04-07 07:05:37 +0000     1396 bytes  src/sentence/pos/passes/web_text_pass.js</tspan>
-<tspan x="10" y="1034"> 62.  2017-04-07 07:05:37 +0000     2889 bytes  src/sentence/pos/tagger.js</tspan>
-<tspan x="10" y="1050"> 63.  2017-04-07 07:05:37 +0000      806 bytes  src/sentence/question/easyForm.js</tspan>
-<tspan x="10" y="1066"> 64.  2017-04-07 07:05:37 +0000      822 bytes  src/sentence/question/hardForm.js</tspan>
-<tspan x="10" y="1082"> 65.  2017-04-07 07:05:37 +0000      450 bytes  src/sentence/question/question.js</tspan>
-<tspan x="10" y="1098"> 66.  2017-04-07 07:05:37 +0000     1032 bytes  src/sentence/question/question_form.js</tspan>
-<tspan x="10" y="1114"> 67.  2017-04-07 07:05:37 +0000      843 bytes  src/sentence/question/yesNo.js</tspan>
-<tspan x="10" y="1130"> 68.  2017-04-07 07:05:37 +0000     6688 bytes  src/sentence/sentence.js</tspan>
-<tspan x="10" y="1146"> 69.  2017-04-07 07:05:37 +0000     1388 bytes  src/sentence/spot.js</tspan>
-<tspan x="10" y="1162"> 70.  2017-04-07 07:05:37 +0000     1567 bytes  src/sentence/statement/negate/negate.js</tspan>
-<tspan x="10" y="1178"> 71.  2017-04-07 07:05:37 +0000      384 bytes  src/sentence/statement/statement.js</tspan>
-<tspan x="10" y="1194"> 72.  2017-04-07 07:05:37 +0000     1114 bytes  src/term/adjective/adjective.js</tspan>
-<tspan x="10" y="1210"> 73.  2017-04-07 07:05:37 +0000     2322 bytes  src/term/adjective/to_adverb.js</tspan>
-<tspan x="10" y="1226"> 74.  2017-04-07 07:05:37 +0000     1606 bytes  src/term/adjective/to_comparative.js</tspan>
-<tspan x="10" y="1242"> 75.  2017-04-07 07:05:37 +0000     1145 bytes  src/term/adjective/to_noun.js</tspan>
-<tspan x="10" y="1258"> 76.  2017-04-07 07:05:37 +0000     1723 bytes  src/term/adjective/to_superlative.js</tspan>
-<tspan x="10" y="1274"> 77.  2017-04-07 07:05:37 +0000      512 bytes  src/term/adverb/adverb.js</tspan>
-<tspan x="10" y="1290"> 78.  2017-04-07 07:05:37 +0000     1410 bytes  src/term/adverb/to_adjective.js</tspan>
-<tspan x="10" y="1306"> 79.  2017-04-07 07:05:37 +0000      288 bytes  src/term/implied.js</tspan>
-<tspan x="10" y="1322"> 80.  2017-04-07 07:05:37 +0000      240 bytes  src/term/is_acronym.js</tspan>
-<tspan x="10" y="1338"> 81.  2017-04-07 07:05:37 +0000     1302 bytes  src/term/noun/article.js</tspan>
-<tspan x="10" y="1354"> 82.  2017-04-07 07:05:37 +0000      903 bytes  src/term/noun/date/date.js</tspan>
-<tspan x="10" y="1370"> 83.  2017-04-07 07:05:37 +0000     1057 bytes  src/term/noun/date/date_rules.js</tspan>
-<tspan x="10" y="1386"> 84.  2017-04-07 07:05:37 +0000      606 bytes  src/term/noun/date/is_date.js</tspan>
-<tspan x="10" y="1402"> 85.  2017-04-07 07:05:37 +0000     2260 bytes  src/term/noun/date/parse_date.js</tspan>
-<tspan x="10" y="1418"> 86.  2017-04-07 07:05:37 +0000     2319 bytes  src/term/noun/is_plural.js</tspan>
-<tspan x="10" y="1434"> 87.  2017-04-07 07:05:37 +0000      502 bytes  src/term/noun/is_uncountable.js</tspan>
-<tspan x="10" y="1450"> 88.  2017-04-07 07:05:37 +0000     2666 bytes  src/term/noun/noun.js</tspan>
-<tspan x="10" y="1466"> 89.  2017-04-07 07:05:37 +0000     1714 bytes  src/term/noun/organization/is_organization.js</tspan>
-<tspan x="10" y="1482"> 90.  2017-04-07 07:05:37 +0000      264 bytes  src/term/noun/organization/organization.js</tspan>
-<tspan x="10" y="1498"> 91.  2017-04-07 07:05:37 +0000     1283 bytes  src/term/noun/person/gender.js</tspan>
-<tspan x="10" y="1514"> 92.  2017-04-07 07:05:37 +0000      847 bytes  src/term/noun/person/is_person.js</tspan>
-<tspan x="10" y="1530"> 93.  2017-04-07 07:05:37 +0000     2049 bytes  src/term/noun/person/parse_name.js</tspan>
-<tspan x="10" y="1546"> 94.  2017-04-07 07:05:37 +0000     2638 bytes  src/term/noun/person/person.js</tspan>
-<tspan x="10" y="1562"> 95.  2017-04-07 07:05:37 +0000     8894 bytes  src/term/noun/place/is_place.js</tspan>
-<tspan x="10" y="1578"> 96.  2017-04-07 07:05:37 +0000     1306 bytes  src/term/noun/place/place.js</tspan>
-<tspan x="10" y="1594"> 97.  2017-04-07 07:05:37 +0000     2718 bytes  src/term/noun/pluralize.js</tspan>
-<tspan x="10" y="1610"> 98.  2017-04-07 07:05:37 +0000      546 bytes  src/term/noun/pronoun.js</tspan>
-<tspan x="10" y="1626"> 99.  2017-04-07 07:05:37 +0000     2581 bytes  src/term/noun/singularize.js</tspan>
-<tspan x="10" y="1642">100.  2017-04-07 07:05:37 +0000      916 bytes  src/term/noun/url/parse_url.js</tspan>
-<tspan x="10" y="1658">101.  2017-04-07 07:05:37 +0000      496 bytes  src/term/noun/url/url.js</tspan>
-<tspan x="10" y="1674">102.  2017-04-07 07:05:37 +0000      536 bytes  src/term/noun/value/is_value.js</tspan>
-<tspan x="10" y="1690">103.  2017-04-07 07:05:37 +0000      619 bytes  src/term/noun/value/parse/decimals.js</tspan>
-<tspan x="10" y="1706">104.  2017-04-07 07:05:37 +0000      599 bytes  src/term/noun/value/parse/modifiers.js</tspan>
-<tspan x="10" y="1722">105.  2017-04-07 07:05:37 +0000     4014 bytes  src/term/noun/value/parse/to_number.js</tspan>
-<tspan x="10" y="1738">106.  2017-04-07 07:05:37 +0000     2290 bytes  src/term/noun/value/to_text.js</tspan>
-<tspan x="10" y="1754">107.  2017-04-07 07:05:37 +0000     3453 bytes  src/term/noun/value/units.js</tspan>
-<tspan x="10" y="1770">108.  2017-04-07 07:05:37 +0000     6908 bytes  src/term/noun/value/value.js</tspan>
-<tspan x="10" y="1786">109.  2017-04-07 07:05:37 +0000     3644 bytes  src/term/term.js</tspan>
-<tspan x="10" y="1802">110.  2017-04-07 07:05:37 +0000     3335 bytes  src/term/verb/conjugate/conjugate.js</tspan>
-<tspan x="10" y="1818">111.  2017-04-07 07:05:37 +0000     3062 bytes  src/term/verb/conjugate/from_infinitive.js</tspan>
-<tspan x="10" y="1834">112.  2017-04-07 07:05:37 +0000     1126 bytes  src/term/verb/conjugate/generic.js</tspan>
-<tspan x="10" y="1850">113.  2017-04-07 07:05:37 +0000     1295 bytes  src/term/verb/conjugate/predict_form.js</tspan>
-<tspan x="10" y="1866">114.  2017-04-07 07:05:37 +0000      330 bytes  src/term/verb/conjugate/strip_prefix.js</tspan>
-<tspan x="10" y="1882">115.  2017-04-07 07:05:37 +0000     1356 bytes  src/term/verb/conjugate/suffix_rules.js</tspan>
-<tspan x="10" y="1898">116.  2017-04-07 07:05:37 +0000     1286 bytes  src/term/verb/conjugate/to_actor.js</tspan>
-<tspan x="10" y="1914">117.  2017-04-07 07:05:37 +0000     3369 bytes  src/term/verb/conjugate/to_infinitive.js</tspan>
-<tspan x="10" y="1930">118.  2017-04-07 07:05:37 +0000     1119 bytes  src/term/verb/to_adjective.js</tspan>
-<tspan x="10" y="1946">119.  2017-04-07 07:05:37 +0000     2826 bytes  src/term/verb/verb.js</tspan>
-<tspan x="10" y="1962">120.  2017-04-07 07:05:37 +0000     1846 bytes  src/term/verb/verb_negate.js</tspan>
-<tspan x="10" y="1978">121.  2017-04-07 07:05:37 +0000     2615 bytes  src/text/sentence_parser.js</tspan>
-<tspan x="10" y="1994">122.  2017-04-07 07:05:37 +0000     4755 bytes  src/text/text.js</tspan>
+<tspan x="10" y="858"> 51.  2017-04-19 01:09:56 +0000     1454 bytes  src/sentence/pos/passes/grammar_pass.js</tspan>
+<tspan x="10" y="874"> 52.  2017-04-19 01:09:56 +0000      569 bytes  src/sentence/pos/passes/interjection_fixes.js</tspan>
+<tspan x="10" y="890"> 53.  2017-04-19 01:09:56 +0000     1729 bytes  src/sentence/pos/passes/lexicon_pass.js</tspan>
+<tspan x="10" y="906"> 54.  2017-04-19 01:09:56 +0000     1095 bytes  src/sentence/pos/passes/multiples_pass.js</tspan>
+<tspan x="10" y="922"> 55.  2017-04-19 01:09:56 +0000     1737 bytes  src/sentence/pos/passes/possessive_pass.js</tspan>
+<tspan x="10" y="938"> 56.  2017-04-19 01:09:56 +0000     1065 bytes  src/sentence/pos/passes/question_pass.js</tspan>
+<tspan x="10" y="954"> 57.  2017-04-19 01:09:56 +0000     1111 bytes  src/sentence/pos/passes/quotation_pass.js</tspan>
+<tspan x="10" y="970"> 58.  2017-04-19 01:09:56 +0000     1657 bytes  src/sentence/pos/passes/regex_pass.js</tspan>
+<tspan x="10" y="986"> 59.  2017-04-19 01:09:56 +0000     3083 bytes  src/sentence/pos/passes/rules/grammar_rules.js</tspan>
+<tspan x="10" y="1002"> 60.  2017-04-19 01:09:56 +0000     3468 bytes  src/sentence/pos/passes/rules/word_rules.js</tspan>
+<tspan x="10" y="1018"> 61.  2017-04-19 01:09:56 +0000     1396 bytes  src/sentence/pos/passes/web_text_pass.js</tspan>
+<tspan x="10" y="1034"> 62.  2017-04-19 01:09:56 +0000     2889 bytes  src/sentence/pos/tagger.js</tspan>
+<tspan x="10" y="1050"> 63.  2017-04-19 01:09:56 +0000      806 bytes  src/sentence/question/easyForm.js</tspan>
+<tspan x="10" y="1066"> 64.  2017-04-19 01:09:56 +0000      822 bytes  src/sentence/question/hardForm.js</tspan>
+<tspan x="10" y="1082"> 65.  2017-04-19 01:09:56 +0000      450 bytes  src/sentence/question/question.js</tspan>
+<tspan x="10" y="1098"> 66.  2017-04-19 01:09:56 +0000     1032 bytes  src/sentence/question/question_form.js</tspan>
+<tspan x="10" y="1114"> 67.  2017-04-19 01:09:56 +0000      843 bytes  src/sentence/question/yesNo.js</tspan>
+<tspan x="10" y="1130"> 68.  2017-04-19 01:09:56 +0000     6688 bytes  src/sentence/sentence.js</tspan>
+<tspan x="10" y="1146"> 69.  2017-04-19 01:09:56 +0000     1388 bytes  src/sentence/spot.js</tspan>
+<tspan x="10" y="1162"> 70.  2017-04-19 01:09:56 +0000     1567 bytes  src/sentence/statement/negate/negate.js</tspan>
+<tspan x="10" y="1178"> 71.  2017-04-19 01:09:56 +0000      384 bytes  src/sentence/statement/statement.js</tspan>
+<tspan x="10" y="1194"> 72.  2017-04-19 01:09:56 +0000     1114 bytes  src/term/adjective/adjective.js</tspan>
+<tspan x="10" y="1210"> 73.  2017-04-19 01:09:56 +0000     2322 bytes  src/term/adjective/to_adverb.js</tspan>
+<tspan x="10" y="1226"> 74.  2017-04-19 01:09:56 +0000     1606 bytes  src/term/adjective/to_comparative.js</tspan>
+<tspan x="10" y="1242"> 75.  2017-04-19 01:09:56 +0000     1145 bytes  src/term/adjective/to_noun.js</tspan>
+<tspan x="10" y="1258"> 76.  2017-04-19 01:09:56 +0000     1723 bytes  src/term/adjective/to_superlative.js</tspan>
+<tspan x="10" y="1274"> 77.  2017-04-19 01:09:56 +0000      512 bytes  src/term/adverb/adverb.js</tspan>
+<tspan x="10" y="1290"> 78.  2017-04-19 01:09:56 +0000     1410 bytes  src/term/adverb/to_adjective.js</tspan>
+<tspan x="10" y="1306"> 79.  2017-04-19 01:09:56 +0000      288 bytes  src/term/implied.js</tspan>
+<tspan x="10" y="1322"> 80.  2017-04-19 01:09:56 +0000      240 bytes  src/term/is_acronym.js</tspan>
+<tspan x="10" y="1338"> 81.  2017-04-19 01:09:56 +0000     1302 bytes  src/term/noun/article.js</tspan>
+<tspan x="10" y="1354"> 82.  2017-04-19 01:09:56 +0000      903 bytes  src/term/noun/date/date.js</tspan>
+<tspan x="10" y="1370"> 83.  2017-04-19 01:09:56 +0000     1057 bytes  src/term/noun/date/date_rules.js</tspan>
+<tspan x="10" y="1386"> 84.  2017-04-19 01:09:56 +0000      606 bytes  src/term/noun/date/is_date.js</tspan>
+<tspan x="10" y="1402"> 85.  2017-04-19 01:09:56 +0000     2260 bytes  src/term/noun/date/parse_date.js</tspan>
+<tspan x="10" y="1418"> 86.  2017-04-19 01:09:56 +0000     2319 bytes  src/term/noun/is_plural.js</tspan>
+<tspan x="10" y="1434"> 87.  2017-04-19 01:09:56 +0000      502 bytes  src/term/noun/is_uncountable.js</tspan>
+<tspan x="10" y="1450"> 88.  2017-04-19 01:09:56 +0000     2666 bytes  src/term/noun/noun.js</tspan>
+<tspan x="10" y="1466"> 89.  2017-04-19 01:09:56 +0000     1714 bytes  src/term/noun/organization/is_organization.js</tspan>
+<tspan x="10" y="1482"> 90.  2017-04-19 01:09:56 +0000      264 bytes  src/term/noun/organization/organization.js</tspan>
+<tspan x="10" y="1498"> 91.  2017-04-19 01:09:56 +0000     1283 bytes  src/term/noun/person/gender.js</tspan>
+<tspan x="10" y="1514"> 92.  2017-04-19 01:09:56 +0000      847 bytes  src/term/noun/person/is_person.js</tspan>
+<tspan x="10" y="1530"> 93.  2017-04-19 01:09:56 +0000     2049 bytes  src/term/noun/person/parse_name.js</tspan>
+<tspan x="10" y="1546"> 94.  2017-04-19 01:09:56 +0000     2638 bytes  src/term/noun/person/person.js</tspan>
+<tspan x="10" y="1562"> 95.  2017-04-19 01:09:56 +0000     8894 bytes  src/term/noun/place/is_place.js</tspan>
+<tspan x="10" y="1578"> 96.  2017-04-19 01:09:56 +0000     1306 bytes  src/term/noun/place/place.js</tspan>
+<tspan x="10" y="1594"> 97.  2017-04-19 01:09:56 +0000     2718 bytes  src/term/noun/pluralize.js</tspan>
+<tspan x="10" y="1610"> 98.  2017-04-19 01:09:56 +0000      546 bytes  src/term/noun/pronoun.js</tspan>
+<tspan x="10" y="1626"> 99.  2017-04-19 01:09:56 +0000     2581 bytes  src/term/noun/singularize.js</tspan>
+<tspan x="10" y="1642">100.  2017-04-19 01:09:56 +0000      916 bytes  src/term/noun/url/parse_url.js</tspan>
+<tspan x="10" y="1658">101.  2017-04-19 01:09:56 +0000      496 bytes  src/term/noun/url/url.js</tspan>
+<tspan x="10" y="1674">102.  2017-04-19 01:09:56 +0000      536 bytes  src/term/noun/value/is_value.js</tspan>
+<tspan x="10" y="1690">103.  2017-04-19 01:09:56 +0000      619 bytes  src/term/noun/value/parse/decimals.js</tspan>
+<tspan x="10" y="1706">104.  2017-04-19 01:09:56 +0000      599 bytes  src/term/noun/value/parse/modifiers.js</tspan>
+<tspan x="10" y="1722">105.  2017-04-19 01:09:56 +0000     4014 bytes  src/term/noun/value/parse/to_number.js</tspan>
+<tspan x="10" y="1738">106.  2017-04-19 01:09:56 +0000     2290 bytes  src/term/noun/value/to_text.js</tspan>
+<tspan x="10" y="1754">107.  2017-04-19 01:09:56 +0000     3453 bytes  src/term/noun/value/units.js</tspan>
+<tspan x="10" y="1770">108.  2017-04-19 01:09:56 +0000     6908 bytes  src/term/noun/value/value.js</tspan>
+<tspan x="10" y="1786">109.  2017-04-19 01:09:56 +0000     3644 bytes  src/term/term.js</tspan>
+<tspan x="10" y="1802">110.  2017-04-19 01:09:56 +0000     3335 bytes  src/term/verb/conjugate/conjugate.js</tspan>
+<tspan x="10" y="1818">111.  2017-04-19 01:09:56 +0000     3062 bytes  src/term/verb/conjugate/from_infinitive.js</tspan>
+<tspan x="10" y="1834">112.  2017-04-19 01:09:56 +0000     1126 bytes  src/term/verb/conjugate/generic.js</tspan>
+<tspan x="10" y="1850">113.  2017-04-19 01:09:56 +0000     1295 bytes  src/term/verb/conjugate/predict_form.js</tspan>
+<tspan x="10" y="1866">114.  2017-04-19 01:09:56 +0000      330 bytes  src/term/verb/conjugate/strip_prefix.js</tspan>
+<tspan x="10" y="1882">115.  2017-04-19 01:09:56 +0000     1356 bytes  src/term/verb/conjugate/suffix_rules.js</tspan>
+<tspan x="10" y="1898">116.  2017-04-19 01:09:56 +0000     1286 bytes  src/term/verb/conjugate/to_actor.js</tspan>
+<tspan x="10" y="1914">117.  2017-04-19 01:09:56 +0000     3369 bytes  src/term/verb/conjugate/to_infinitive.js</tspan>
+<tspan x="10" y="1930">118.  2017-04-19 01:09:56 +0000     1119 bytes  src/term/verb/to_adjective.js</tspan>
+<tspan x="10" y="1946">119.  2017-04-19 01:09:56 +0000     2826 bytes  src/term/verb/verb.js</tspan>
+<tspan x="10" y="1962">120.  2017-04-19 01:09:56 +0000     1846 bytes  src/term/verb/verb_negate.js</tspan>
+<tspan x="10" y="1978">121.  2017-04-19 01:09:56 +0000     2615 bytes  src/text/sentence_parser.js</tspan>
+<tspan x="10" y="1994">122.  2017-04-19 01:09:56 +0000     4755 bytes  src/text/text.js</tspan>
 </text>
 </svg>
