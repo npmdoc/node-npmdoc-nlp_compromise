@@ -1,6 +1,6 @@
 # npmdoc-nlp_compromise
 
-#### api documentation for  [nlp_compromise (v6.5.3)](https://github.com/nlp-compromise/nlp_compromise#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-nlp_compromise.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-nlp_compromise) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-nlp_compromise.svg)](https://travis-ci.org/npmdoc/node-npmdoc-nlp_compromise)
+#### basic api documentation for  [nlp_compromise (v6.5.3)](https://github.com/nlp-compromise/nlp_compromise#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-nlp_compromise.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-nlp_compromise) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-nlp_compromise.svg)](https://travis-ci.org/npmdoc/node-npmdoc-nlp_compromise)
 
 #### natural language processing in the browser
 
@@ -81,7 +81,8 @@
         "watch": "grunt watch"
     },
     "typings": "./nlp.d.ts",
-    "version": "6.5.3"
+    "version": "6.5.3",
+    "bin": {}
 }
 ```
 
